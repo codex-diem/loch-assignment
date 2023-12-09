@@ -2,19 +2,19 @@ import PageLoader from "../components/PageLoader";
 import LoginContainer from "../layouts/LoginContainer";
 import { lazy, Suspense } from "react";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Route,
+  HashRouter,
   Routes,
   Navigate,
 } from "react-router-dom";
-import history from "../history";
 
 const Containers = () => {
   const NotFoundPage = lazy(() => import("./NotFound"));
   const LoginPage = lazy(() => import("./LoginPage"));
 
   return (
-    <Router history={history}>
+    <HashRouter>
       <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route exact path="/not-found" element={<NotFoundPage />} />
@@ -25,7 +25,7 @@ const Containers = () => {
           </Route>
         </Routes>
       </Suspense>
-    </Router>
+    </HashRouter>
   );
 };
 
