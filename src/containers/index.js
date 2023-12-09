@@ -8,7 +8,6 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import history from "../history";
 
 const Containers = () => {
   const NotFoundPage = lazy(() => import("./NotFound"));
