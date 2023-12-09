@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/loch-assignment/static/css/main.ea13aa59.css",
-    "main.js": "/loch-assignment/static/js/main.7358ffa5.js",
+    "main.js": "/loch-assignment/static/js/main.319f8735.js",
     "static/js/996.95c68a8f.chunk.js": "/loch-assignment/static/js/996.95c68a8f.chunk.js",
     "static/js/77.be58c14d.chunk.js": "/loch-assignment/static/js/77.be58c14d.chunk.js",
     "static/js/787.4acb6286.chunk.js": "/loch-assignment/static/js/787.4acb6286.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/LochIcon.svg": "/loch-assignment/static/media/LochIcon.972c8a77129582b0a3efad85c9dd0464.svg",
     "index.html": "/loch-assignment/index.html",
     "main.ea13aa59.css.map": "/loch-assignment/static/css/main.ea13aa59.css.map",
-    "main.7358ffa5.js.map": "/loch-assignment/static/js/main.7358ffa5.js.map",
+    "main.319f8735.js.map": "/loch-assignment/static/js/main.319f8735.js.map",
     "996.95c68a8f.chunk.js.map": "/loch-assignment/static/js/996.95c68a8f.chunk.js.map",
     "77.be58c14d.chunk.js.map": "/loch-assignment/static/js/77.be58c14d.chunk.js.map",
     "787.4acb6286.chunk.js.map": "/loch-assignment/static/js/787.4acb6286.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.ea13aa59.css",
-    "static/js/main.7358ffa5.js"
+    "static/js/main.319f8735.js"
   ]
 }
